@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tokli o'tkazgichni magnit maydonida ko'chirishda bajarilgan ish</title>
+<style>
+  :root{--bg:#f5f7fb;--card:#fff;--ink:#172033;--accent:#2457d6;--soft:#eaf0ff;--line:#dbe2ef}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+  header{background:linear-gradient(135deg,#173b9a,#3974e8);color:white;padding:48px 20px;text-align:center}
+  header h1{margin:0 auto 10px;max-width:1000px;font-size:clamp(28px,5vw,46px)}
+  header p{margin:0;font-size:18px}
+  main{max-width:1100px;margin:30px auto;padding:0 18px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px;margin-bottom:24px;box-shadow:0 8px 24px rgba(30,50,90,.06)}
+  h2{color:var(--accent);margin-top:0}
+  h3{color:#25406f}
+  .formula{background:var(--soft);border-left:5px solid var(--accent);padding:15px 20px;margin:16px 0;border-radius:8px;font-size:22px;font-weight:bold;text-align:center}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:15px}
+  .box{border:1px solid var(--line);border-radius:12px;padding:16px;background:#fafcff}
+  .example{background:#fff9e8;border-left:5px solid #e1a800;padding:16px 20px;border-radius:8px}
+  .prompt{background:#101827;color:#e9eef9;border-radius:12px;padding:18px;white-space:pre-wrap;font-family:Consolas,monospace;font-size:14px;overflow:auto}
+  .tag{display:inline-block;background:#eaf0ff;color:#244aa8;border-radius:20px;padding:5px 11px;margin:3px;font-weight:bold}
+  footer{text-align:center;color:#68748a;padding:25px}
+  @media print{body{background:white}section{box-shadow:none;break-inside:avoid}.prompt{color:#111;background:#f2f2f2}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Tokli o'tkazgichni magnit maydonida ko'chirishda bajarilgan ish</h1>
+  <p>11-sinf fizika fani uchun nazariya, formulalar, misollar va animatsiya/simulyatsiya promptlari</p>
+</header>
+
+<main>
+<section>
+  <h2>Dars rejasi</h2>
+  <div class="tag">1. Amper kuchi</div>
+  <div class="tag">2. Vektorial ko'rinish</div>
+  <div class="tag">3. Bajarilgan ish va energiya</div>
+  <p><b>Eslatma:</b> dastlabki 3-reja 1-reja bilan bir xil bo'lgani uchun mazmun takrorlanmasligi maqsadida 3-reja “Tokli o'tkazgichni magnit maydonida ko'chirishda bajarilgan ish va energiya” sifatida ishlab chiqildi.</p>
+</section>
+
+<section>
+  <h2>1-reja. Magnit maydonidagi tokli o'tkazgichga ta'sir etuvchi kuchlar va ularni hisoblash usullari</h2>
+  <p>Magnit maydoniga joylashtirilgan tokli o'tkazgichga <b>Amper kuchi</b> ta'sir qiladi.</p>
+  <div class="formula">F<sub>A</sub> = BIl sin α</div>
+  <div class="grid">
+    <div class="box"><b>F<sub>A</sub></b> — Amper kuchi, N</div>
+    <div class="box"><b>B</b> — magnit induksiyasi, T</div>
+    <div class="box"><b>I</b> — tok kuchi, A</div>
+    <div class="box"><b>l</b> — magnit maydonidagi o'tkazgich uzunligi, m</div>
+    <div class="box"><b>α</b> — tok yo'nalishi bilan magnit induksiya vektori orasidagi burchak</div>
+  </div>
+  <p>Agar o'tkazgich magnit maydoniga perpendikulyar joylashgan bo'lsa, α = 90° va sin 90° = 1.</p>
+  <div class="formula">F<sub>A</sub> = BIl</div>
+  <p>Amper kuchining yo'nalishi <b>chap qo'l qoidasi</b> yordamida aniqlanadi.</p>
+
+  <div class="example">
+    <h3>Misol</h3>
+    <p>B = 0.5 T, I = 4 A, l = 0.2 m, α = 90°.</p>
+    <p>F<sub>A</sub> = 0.5 × 4 × 0.2 = <b>0.4 N</b>.</p>
+  </div>
+
+  <h3>🎬 Simulyatsiya prompti</h3>
+  <div class="prompt">11-sinf fizika darsi uchun realistik 3D fizik simulyatsiya yarating. Mavzu: “Magnit maydonidagi tokli o'tkazgichga ta'sir qiluvchi Amper kuchi”.
+
+Gorizontal joylashgan to'g'ri metall o'tkazgichni ko'rsating. O'tkazgichdan chapdan o'ngga elektr toki I = 4 A oqsin. O'tkazgich bir jinsli magnit maydonida joylashgan bo'lsin. Magnit maydon yo'nalishini parallel strelkalar bilan ko'rsating va B = 0.5 T deb belgilang.
+
+O'tkazgichga ta'sir qilayotgan Amper kuchini katta vektor strelka bilan ko'rsating. F_A = BIL formulasi ekranda paydo bo'lsin. Qiymatlar: B=0.5 T, I=4 A, l=0.2 m. Natija F_A=0.4 N.
+
+Keyin chap qo'l qoidasini animatsiya orqali tushuntiring: magnit maydon yo'nalishi, tok yo'nalishi va Amper kuchi yo'nalishini uchta alohida strelka bilan ko'rsating.
+
+Ilmiy jihatdan aniq, maktab darsligi uslubida, yorqin va tushunarli 3D animatsiya, o'zbek tilidagi yozuvlar, 16:9 format.</div>
+</section>
+
+<section>
+  <h2>2-reja. Magnit maydonida ko'chayotgan o'tkazgichdagi fizik jarayonlar va Amper kuchining vektorial ko'rinishi</h2>
+  <p>Tokli o'tkazgich magnit maydonida harakat qilganda unga Amper kuchi ta'sir qiladi.</p>
+  <div class="formula">⃗F<sub>A</sub> = I⃗l × ⃗B</div>
+  <p>Bu yerda ⃗F<sub>A</sub> — Amper kuchi vektori, I⃗l — tok yo'nalishidagi vektor, ⃗B — magnit induksiya vektori, × — vektorlarning tashqi ko'paytmasi.</p>
+  <p>Magnit maydonida jarayonlar zanjiri:</p>
+  <div class="formula">Elektr toki → Magnit maydoni → Amper kuchi → O'tkazgichning mexanik harakati</div>
+  <p>Agar o'zgartgich magnit maydonida kuch ta'sirida siljisa, mexanik ish bajariladi.</p>
+  <div class="formula">A = F<sub>A</sub>s</div>
+  <div class="formula">A = BIls sin α</div>
+
+  <h3>🎬 Simulyatsiya prompti</h3>
+  <div class="prompt">11-sinf fizika uchun yuqori sifatli 3D animatsion simulyatsiya yarating. Mavzu: “Magnit maydonida tokli o'tkazgichning harakati va Amper kuchining vektorial ko'rinishi”.
+
+Kadrda ikkita magnit qutbi orasidagi bir jinsli magnit maydonini ko'rsating. Magnit induksiya vektori B ni parallel strelkalar yordamida belgilang.
+
+Magnit maydon ichida tok o'tayotgan metall o'tkazgich joylashsin. Tok yo'nalishini I va l vektorlari bilan ko'rsating. Keyin Amper kuchi vektorini F_A bilan ko'rsating.
+
+Ekranda vektor formula paydo bo'lsin:
+F_A = I l × B
+
+Vektorlarning o'zaro perpendikulyar ekanini 3D ko'rinishda ko'rsating. So'ng o'tkazgich Amper kuchi yo'nalishida harakatlana boshlasin. Harakat masofasini s bilan belgilang.
+
+Keyingi bosqichda:
+A = F_A · s
+va
+A = B I l s sin(alpha)
+formulalarini ko'rsating.
+
+Animatsiyada kuch o'tkazgichni siljitayotgani, mexanik ish bajarilayotgani va energiya uzatilayotganini vizual ravishda tushuntiring.
+
+O'zbek tilidagi yozuvlar, maktab laboratoriyasi uslubidagi 3D grafika, aniq vektor strelkalar, fizik qonunlarga mos harakat, 16:9 format.</div>
+</section>
+
+<section>
+  <h2>3-reja. Tokli o'tkazgichni magnit maydonida ko'chirishda bajarilgan ish va energiya</h2>
+  <p>Magnit maydonidagi tokli o'tkazgichga Amper kuchi ta'sir qiladi. Agar o'tkazgich shu kuch yo'nalishida ma'lum masofaga ko'chirilsa, mexanik ish bajariladi.</p>
+  <div class="formula">A = Fs cos β</div>
+  <p>Amper kuchi uchun:</p>
+  <div class="formula">A = F<sub>A</sub>s cos β</div>
+  <p>Agar kuch va ko'chish bir yo'nalishda bo'lsa, β = 0° va:</p>
+  <div class="formula">A = F<sub>A</sub>s</div>
+  <p>F<sub>A</sub> = BIl sin α ekanini hisobga olsak:</p>
+  <div class="formula">A = BIls sin α</div>
+
+  <div class="example">
+    <h3>Misol</h3>
+    <p>B = 0.4 T, I = 5 A, l = 0.3 m, s = 0.2 m, α = 90°.</p>
+    <p>F<sub>A</sub> = 0.4 × 5 × 0.3 = <b>0.6 N</b>.</p>
+    <p>A = 0.6 × 0.2 = <b>0.12 J</b>.</p>
+    <p><b>Javob: A = 0.12 J.</b></p>
+  </div>
+
+  <h3>🎬 Yakuniy animatsiya prompti</h3>
+  <div class="prompt">11-sinf fizika faniga mo'ljallangan ta'limiy 3D animatsiya yarating. Mavzu: “Tokli o'tkazgichni magnit maydonida ko'chirishda bajarilgan ish”.
+
+Bir jinsli magnit maydonini ko'rsating. Magnit induksiya B = 0.4 T. Magnit maydon ichida uzunligi l = 0.3 m bo'lgan tokli o'tkazgich joylashsin. Undan I = 5 A tok oqsin.
+
+O'tkazgichga ta'sir qiluvchi Amper kuchini F_A strelkasi bilan ko'rsating. O'tkazgich Amper kuchi yo'nalishida s = 0.2 m masofaga harakatlansin. Harakat davomida masofa o'lchagich animatsiyasi paydo bo'lsin.
+
+Avval:
+F_A = B I l sin(alpha)
+formulasini ko'rsating.
+
+alpha = 90° ekanini ko'rsating va:
+F_A = 0.4 × 5 × 0.3 = 0.6 N
+hisobini bosqichma-bosqich animatsiya qiling.
+
+Keyin mexanik ish formulasini ko'rsating:
+A = F_A s
+
+Hisob:
+A = 0.6 × 0.2 = 0.12 J
+
+Yakuniy ekranda katta yozuv bilan:
+“Bajarilgan ish: A = 0.12 J”
+
+deb ko'rsating.
+
+Magnit maydoni, tok yo'nalishi, Amper kuchi va o'tkazgichning harakatini aniq strelkalar bilan ajrating. Formulalar va o'zbek tilidagi izohlar birga paydo bo'lsin. Ilmiy jihatdan to'g'ri, 11-sinf o'quvchisi uchun sodda va tushunarli, zamonaviy maktab laboratoriyasi uslubidagi 3D animatsiya, 16:9 format.</div>
+</section>
+
+<section>
+  <h2>🎥 Uchta animatsiyani bitta darsga birlashtirish uchun yakuniy prompt</h2>
+  <div class="prompt">11-sinf fizika fani uchun “Tokli o'tkazgichni magnit maydonida ko'chirishda bajarilgan ish” mavzusida interaktiv 3D ta'limiy animatsiya va simulyatsiya yarating.
+
+Animatsiya 3 ta asosiy bo'limdan iborat bo'lsin:
+
+1-bo'lim:
+“Magnit maydonidagi tokli o'tkazgichga ta'sir etuvchi Amper kuchi”.
+B = 0.5 T, I = 4 A, l = 0.2 m qiymatlarni ishlating.
+F_A = BIl sin(alpha) formulasini tushuntiring.
+alpha = 90° bo'lganda F_A = 0.4 N natijani ko'rsating.
+Chap qo'l qoidasi yordamida kuch yo'nalishini tushuntiring.
+
+2-bo'lim:
+“Magnit maydonida ko'chayotgan o'tkazgich va Amper kuchining vektorial ko'rinishi”.
+F_A = I l × B formulasini 3D vektorlar yordamida tushuntiring.
+B, I l va F_A vektorlarini alohida strelkalar bilan ko'rsating.
+O'tkazgichning Amper kuchi ta'sirida siljishini animatsiya qiling.
+
+3-bo'lim:
+“Tokli o'tkazgichni ko'chirishda bajarilgan ish”.
+B = 0.4 T, I = 5 A, l = 0.3 m, s = 0.2 m qiymatlarini ishlating.
+Avval F_A = 0.6 N ni hisoblang.
+Keyin A = F_A s formulasi orqali A = 0.12 J natijani oling.
+Formulalar va hisob-kitoblar ekranda bosqichma-bosqich paydo bo'lsin.
+
+Har bir bo'limda fizik kattaliklarning belgilanishi, o'lchov birliklari va vektor yo'nalishlari aniq ko'rsatilishi kerak. Animatsiya o'zbek tilida, 11-sinf darajasida, zamonaviy laboratoriya ko'rinishida, ilmiy jihatdan aniq, 16:9 formatda bo'lsin.</div>
+</section>
+</main>
+
+<footer>
+  11-sinf fizika • Tokli o'tkazgichni magnit maydonida ko'chirishda bajarilgan ish
+</footer>
+</body>
+</html>
